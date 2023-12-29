@@ -1,4 +1,10 @@
-.navbar1{
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.navbar1 {
     position: fixed;
     top: 0;
     z-index: 100;
@@ -6,113 +12,324 @@
     height: 10vh;
 }
 
-.nvbr{
+.nvbr {
     position: absolute;
     right: 10%;
 }
 
-.nvbr a:hover{
-    
+.nvbr a:hover {
+
     color: rgb(206, 23, 219) !important;
 }
-.icn{
-font-size: 1.5vw;
-color: rgb(111, 39, 198);
-position: absolute;
-left: 10%;
-padding-top: 10%;
+
+.icn {
+    font-size: 1.5vw;
+    color: #6F71FD;
+    position: absolute;
+    left: 10%;
+    padding-top: 10%;
 }
-.icon{
-    width:15vw;
+
+.icon {
+    width: 15vw;
 
 }
-.body{
-height: 70vh;
-width: 100vw;
-display: flex;
+
+.body {
+    height: 100vh;
+    width: 100vw;
+    top: 10%;
+    display: flex;
 
 }
-.data{
-height: 70vh;
-width: 35vw;
+
+.data {
+    height: 70vh;
+    width: 35vw;
 
 }
-.img{
+
+.img {
     height: 70vh;
     width: 50vw;
-    
-    }
-     h1{
-    font: size 5% !important; ;
-padding: 15% 0%;
-font-family: 'Roboto Condensed', sans-serif;
-margin-left: 10%;
+
 }
-.data h2{
-position: absolute;
-font-size: 1.5vw;
-margin-top: -5%;
-margin-left: 4%;
+
+.data h1 {
+    font: size 5% !important;
+    padding: 15% 0%;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 10%;
 }
-.data p{
+
+.data h2 {
+    position: absolute;
+    font-size: 1.5vw;
+    margin-top: -5%;
+    margin-left: 4%;
+}
+
+.data p {
     margin-left: 4%;
     position: absolute;
     margin-top: -2%;
-    }
-.img img{
+}
 
-height: 300px;
-width: 300px;
-border-radius: 50%;
-position: absolute;
-margin-top: 10%;
+.img img {
+
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 6%;
 
 }
-.data button{
-    
+
+.data button {
+
     margin-left: 4%;
     position: absolute;
     margin-top: 5%;
-    
-    }
- .btn2{
-margin-left: 20%;
-margin-top: 15vh;
- }
- .scroll{
-    margin-left: 23%;
-margin-top: -5vh;
-color: blue;
- }
- .about h1{
-    margin-top: -18vh;
-text-align: center;
+    background-color: #6F71FD !important;
+}
 
- }
- .about h2{
-
-    margin-top: -35vh;
-    text-align: center; 
-    font-size: medium;
-    margin-left: 10%;
- }
- .about{
-
-    height: 60vh;
+.about {
+    height: 100vh;
     width: 100vw;
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+}
+
+.headingg {
+    text-align: center;
+    height: 25%;
+    width: 100%;
+
+}
+
+.headingg h1 {
+    margin-top: 4.2%;
+}
+
+.headingg h2 {
+    font-size: x-large;
+}
+
+.about1 {
+
+    height: 75%;
+    width: 100%;
     display: flex;
     flex-direction: row;
 
 }
-.image{
-    height: 60vh;
-    width: 50vw;
-    background-color: rgb(83, 83, 107);
+
+.image2 {
+    height: 70%;
+    width: 50%;
+
 
 }
-.aboutme{
-    height: 60vh;
-    width: 50vw;
-    background-color: blue;
+
+.image2 img {
+    height: 50%;
+    width: 50%;
+    background-color: antiquewhite;
+    position: relative;
+    left: 40%;
+    top: 20%;
+    border-radius: 5mm;
+}
+
+.aboutme {
+    height: 70%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutme p {
+    font-size: 1.2vw;
+}
+
+.maindata {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+}
+
+.btn2 {
+    width: 35%;
+    border-radius: 5mm;
+    background-color: #6F71FD !important;
+}
+
+.skill {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.skdata {
+    height: 20%;
+    text-align: center;
+}
+
+.skdata h1 {
+    margin-top: 4.5%;
+
+}
+.ftdep h4 {
+    position: relative;
+    left: 25%;
+    top: -30%;
+}
+
+.ftdep p {
+    position: relative;
+    left: 26%;
+    top: -40%;
+}
+
+.score {
+    width: 26%;
+    height: 70vh;
+    position: relative;
+    left: 25%;
+}
+
+.score p {
+    position: relative;
+    top: 5%;
+}
+
+.score  .progress {
+    height: 3%;
+
+}
+
+.progress div{
+    width: 2%;
+}
+
+.qualification {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.qfdata {
+    height: 20%;
+    text-align: center;
+    position: relative;
+    top: 15%;
+}
+
+.edwork {
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 20%;
+
+}
+
+.education {
+    height: 70%;
+    width: 50%;
+    justify-content: center;
+    margin-left: 35%;
+}
+
+
+.education h3 {
+    color: #6F71FD;
+}
+
+
+.work {
+    height: 70%;
+    width: 50%;
+    margin-right: 30%;
+}
+
+
+.work h3 {
+    color: #6F71FD;
+}
+
+.service {
+    height: 100vh;
+    width: 100vw;
+}
+
+.nmservice {
+    text-align: center;
+    height: 25%;
+
+}
+
+.offers {
+    display: flex;
+    flex-direction: row;
+    height: 75%;
+    justify-content: center;
+    gap: 2.5%;
+    text-align: center;
+    
+}
+
+.grapic {
+    height: 70%;
+    width: 20%;
+    background-color: rgb(217, 222, 224);
+
+}
+.grapic i{
+    font-size: xx-large;
+    color: #6F71FD;
+}
+
+
+
+.frontend {
+    height: 70%;
+    width: 20%;
+    background-color: rgb(217, 222, 224);
+}
+
+.frontend i {
+    font-size: xx-large;
+    color: #6F71FD;
+}
+
+.logodes {
+    height: 70%;
+    width: 20%;
+    background-color: rgb(217, 222, 224);
+}
+
+.offers i {
+    font-size: xx-large;
+    color: #6F71FD;
+}
+
+
+
+
+.portfolio {
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+}
+
+ .nmport {
+    text-align: center;
+    margin-top: 20%;
 
 }
